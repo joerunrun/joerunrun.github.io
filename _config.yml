@@ -228,6 +228,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+    articles:
+    output: true
+    permalink: /:collection/:name/
+  projects:
+    output: true
+    permalink: /:collection/:name/
 
 
 # These settings control how pages and collections are included in the site
