@@ -288,7 +288,23 @@ defaults:
       path: ""
       type: talks
     values:
-      layout: talk
+      layout: single
+      author_profile: true
+      share: true
+  
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: single
+      author_profile: true
+      share: true 
+  
+  - scope:
+      path: ""
+      type: project
+    values:
+      layout: single
       author_profile: true
       share: true
 
