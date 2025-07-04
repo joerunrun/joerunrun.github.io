@@ -228,7 +228,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-    articles:
+  articles:
     output: true
     permalink: /:collection/:name/
   projects:
